@@ -1,0 +1,151 @@
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 200px;
+	background-image: linear-gradient(rgba(0, 0, 0, 1.0));
+	cursor: pointer;
+}
+.navbar ul li{
+
+	list-style: none;
+	font-size: 20px;
+	display: inline-block;
+	margin: -20px 20px;
+	font-weight: bold;
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+
+/*CSS For Main TItle*/
+
+h1 {
+	width: 90%;
+	font-size: 60px;
+	text-align: center;
+	color:greenyellow ;
+	text-decoration: none;
+}
+
+h2{
+	width: 90%;
+	font-size: 40px;
+	text-align: left;
+	color:burlywood ;
+	text-decoration: none;
+}
+
+h1::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+}
+
+#hr-main{
+	size: 10;
+}
+
+
+
+<h1 >Computer Operating System Software</h1>
+	<hr id="hr-main">
+
+
+
+		<h2>1.1 Concept Of Software</h2>
+			<h3>Defination Of Software</h3>
+				<p>A computer requires a set of instructions to perform any task. </p>
+	
+
+
+
+
+	.tour-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 17px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.tour-btn:hover{
+	border: 1px solid #009688;
+	background: #009688;
+	transition: 1s;
+}
+
+/*yo xai dami wala button ho*/
+
+.tour-btn{
+	width: 200px;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 12px 34px;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 25px;
+	border: 1px solid #fff;
+	font-weight: bold;
+	font-size: 17px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+span{
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #009688;
+	z-index: -1;
+	transition: 0.5s;
+}
+
+.tour-btn:hover span{
+	width: 100%;
+}
+
+tour-btn:hover{
+	border: none;
+}
+
+
